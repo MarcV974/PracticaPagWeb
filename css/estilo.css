@@ -1,0 +1,276 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    padding: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+}
+nav{
+    background: linear-gradient(to right,  rgb(20, 132, 231), rgb(49, 255, 3), rgb(195, 241, 58), orange, rgb(133, 0, 170));
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 2px;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#botonmenu{
+    border-style: groove;
+    border-radius: 6px;
+    padding: 1px;
+}
+a, a:link, a:visited, a:hover, a:active{
+    color:rgb(9, 9, 9);
+    font-family: monospace;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    margin-top: auto;
+    padding: 5px;
+}
+.contenido{
+    margin: 5px;
+    text-align: center;
+}
+#titulo{
+    text-align: center;
+    font-family: monospace;
+}
+#imgprin{
+    display: block;
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgfotos{
+    display: block;
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+}
+#fotos{
+    width: 50%;
+    border: 6px;
+    border-right-style: outset;
+    border-color: darkorchid;
+    margin: 5px;
+    text-align: center;
+}
+#PrinColecFotos{
+    display: flex;
+}
+#ContenColecFot{
+    width: 50%;
+    margin: 5px;
+    font-family: sans-serif;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contactos{
+    padding: 3%;
+    margin-top: auto;
+    display: inline-flex;
+    margin-left: 3px;
+    margin: 3px;
+}
+#contactoder{
+    display: block;
+    margin: 5px;
+    width: 50%;
+    height: 50%;
+}
+#contactoizq{
+    color: black;
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+    margin: 5px;
+    width: 50%;
+    height: 50%;
+}
+#titulocont{
+    text-decoration: underline;
+    color: darkblue ;
+}
+#contactimg{
+    display: block;
+    background-color: darkblue;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    width: 600px;
+    border-radius: 50px;
+}
+#titulorec{
+    color: azure;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-style: italic;
+    padding: 5px;
+    background: linear-gradient(to left,rgb(50, 12, 218), rgb(206, 9, 221));
+    margin: 5px;
+    margin-bottom: 0px;
+}
+#recuerdosvent{
+    background: linear-gradient(to left,rgb(50, 12, 218), rgb(206, 9, 221));
+    margin: 5px;
+    margin-top: 0;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+}
+#contenidorecizq{
+    color: azure;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 2px;
+    border-right-style: dashed;
+}
+#contenidorecder{
+    color: azure;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imgrecuer{
+    width: 300px;
+    height: 300px;
+}
+#contenidohist{
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    overflow-x: auto;
+}
+#historia{
+    color: azure;
+    background-image: url(../imgs/tablafondo.jpg);
+    display: block;
+    border: 2px;
+    border-right: 0px;
+    border-style: dotted;
+}
+td{
+    width: 500px;
+    height: 60px;
+    border-right: 2px;
+    border-right-style: dotted;
+}
+tr{
+    border: 2px;
+}
+#redsocial{
+    background:linear-gradient(to right,rgb(183, 13, 13),rgb(214, 214, 214),rgb(214, 214, 214),rgb(183, 13, 13));
+    display: flex;
+    width: 100%;
+    margin-right: 20%;
+    margin-top: 20px;
+    border-radius: 50px;   
+}
+#tituloenlaces{
+    color: azure;
+    background-color: black;
+}
+#redsocial2{
+    background:linear-gradient(to right,black,rgb(214, 214, 214),rgb(214, 214, 214),black);
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 50px;  
+}
+#redsocial3{
+    background:linear-gradient(to right,black,rgb(0, 255, 251),rgb(214, 214, 214),rgb(254, 44, 85),black);
+    display: flex;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 50px;        
+}
+#descripcionred{
+    font-family: cursive;
+    margin: auto;
+    width: 50%;
+}
+#imgredsocial{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+}
+#titulolistas{
+    text-align: center;
+}
+#albumyellow{
+    display: flex;
+    background: linear-gradient(to right,yellow,gold,darkorange);
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#albumViva{
+    color: azure;
+    display: flex;
+    background: linear-gradient(to left,black,darkblue);
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+#albumHead{
+    color: azure;
+    display: flex;
+    background: linear-gradient(to left,white,rgb(6, 6, 6));
+    margin-top: 20px;
+    border-radius: 20px; 
+}
+#albummylo{
+    color: azure;
+    display: flex;
+    background: linear-gradient(to left,rgb(166, 1, 1),rgb(6, 6, 6));
+    margin-top: 20px;
+    border-radius: 20px; 
+}
+#imgalbum{
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+#contenidoalbum{
+    width: 100%;
+    max-height: 300px;
+    text-align: left;
+}
+#botoncomprar{
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 100px;
+}
